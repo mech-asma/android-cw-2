@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6DE1D358"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="68dp"
+        android:text="صيدلية مسار الأندرويد"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#E81818"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="247dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="الرجاء إدخال البيانات التالية:"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="97dp"
+        android:ems="10"
+        android:hint="Phone number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"/>
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Address"/>
+
+    <Button
+        android:id="@+id/nextPage"
+        android:layout_marginTop="20dp"
+        android:layout_width="123dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ABF6C276"
+        android:layout_height="wrap_content"
+        android:text="Next" />
+
+
+</LinearLayout>
